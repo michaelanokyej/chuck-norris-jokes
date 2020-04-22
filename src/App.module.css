@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Gelasio:400,400i,700,700i&display=swap");
+
+body {
+  background: url("chuck-img.jpg") no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Gelasio", serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30% auto;
+  padding: 8px;
+  max-width: 500px;
+  border: #3fad97 inset;
+}
+
+.title {
+  display: flex;
+  text-align: center;
+  color: #0b4237;
+}
+
+.selectButtonDiv {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.blockquote {
+  max-width: 500px;
+  margin: 10px 30px;
+  padding: 25px;
+  background: #f8fffe;
+  border: 1px solid #b0d2cb;
+  color: #0b4237;
+  border-left-width: 10px;
+}
+
+.blockquote_text {
+  font-family: "Gelasio", serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.devlink > a {
+  text-decoration: none;
+  color: #0b4237;
+}
+
+a:visited {
+  color: #7a0471;
+}
+
+
+@media (max-width: 770px) {
+  .selectButtonDiv {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    cursor: pointer;
+  }
+  button > a {
+    text-decoration: none;
+    color: #0b4237;
+  }
+  .selectBorder {
+    border: 1px solid  #0b4237;
+    cursor: pointer;
+  }
+}
+
