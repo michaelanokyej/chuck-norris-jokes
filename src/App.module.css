@@ -57,6 +57,11 @@ button {
   border-radius: 5px;
 }
 
+button > a {
+  text-decoration: none;
+  color: #0b4237;
+}
+
 .devlink > a {
   text-decoration: none;
   color: #0b4237;
